@@ -132,7 +132,6 @@
                 <td th:text="${book.id}"></td>
                 <td th:text="${book.bookName}"></td>
                 <td th:text="${book.bookAuthor}"></td>
-                <td><a th:href="@{book-update/{id}(id=${book.id})}"><b><span>Изменить</span></b></a></td>
                 <td><a th:href="@{book-delete/{id}(id=${book.id})}"><b><span>Удалить</span></b></a></td>
             </tr>
             </tbody>
